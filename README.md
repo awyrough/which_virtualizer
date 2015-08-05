@@ -1,4 +1,4 @@
-# which_virtualizer
+# Python Virtual Environment: Where Am I?
 Linux-friendly bash script so you know which virtual environment is active
 
 This bash script alters your bash prompt so that you are aware of the project directory
