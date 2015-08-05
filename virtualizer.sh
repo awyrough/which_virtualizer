@@ -1,0 +1,7 @@
+VIRTUALIZER_DIR="${PWD##*/}"
+_OLD_OLD_PS1="$PS1"
+PS1="@$VIRTUALIZER_DIR $PS1"
+export PS1
+source venv/bin/activate
+_OLD_VIRTUAL_PS1="$_OLD_OLD_PS1"
+unset _OLD_OLD_PS1
